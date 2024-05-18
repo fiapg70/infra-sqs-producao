@@ -1,0 +1,20 @@
+# Exclude .env file
+.env
+
+# Terraform files
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+
+# Local configuration files
+*.tfvars
+
+# Exclude IDE/editor specific files
+.vscode/
+.idea/
+*.swp
+
+# Exclude OS generated files
+.DS_Store
+Thumbs.db
